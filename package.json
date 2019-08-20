@@ -1,0 +1,81 @@
+{
+  "name": "@venoid/admin-form",
+  "version": "1.0.1",
+  "description": "Form component developed by Venoid team using Buefy UI framework.",
+  "author": "Dmitrij Tkačenko <dimot9@gmail.com>",
+  "contributors": [
+    "Jiří Nagy <jirka.nagy@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:venoid/admin-form.git"
+  },
+  "homepage": "https://bitbucket.org/venoid/admin-form#readme",
+  "main": "./dist/admin-form.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name admin-form ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "push-npm": "bash ./publish.bash"
+  },
+  "dependencies": {
+    "@mdi/font": "^4.0.96",
+    "buefy": "^0.8.2",
+    "core-js": "^2.6.5",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "keywords": [
+    "vue",
+    "components",
+    "venoid",
+    "cms",
+    "admin",
+    "administration",
+    "vue-components",
+    "buefy",
+    "form"
+  ]
+}
