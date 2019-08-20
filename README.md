@@ -2,7 +2,7 @@
 
 Form component for your administration provides you good options how to build your form.
 
-![screenshot-example]()
+![screenshot-example](https://bitbucket.org/venoid/admin-form/raw/4afc4dac2d292b281ecba054d1fd923c8a775494/images/example-admin-form.png)
 
 ## Props
 | Props         | Type    | Default   |                                      |
