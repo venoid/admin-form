@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import VenoidFormField from './venoid-form-field'
+import VenoidFormField from './venoid-form-field.vue'
 import VenoidFormAction from './venoid-form-action.vue'
 
 export default {
