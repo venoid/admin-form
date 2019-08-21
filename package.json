@@ -13,6 +13,9 @@
   },
   "homepage": "https://bitbucket.org/venoid/admin-form#readme",
   "main": "./dist/admin-form.common.js",
+  "browser": {
+    "./sfc": "src/Form.vue"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
