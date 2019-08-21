@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import VenoidForm from './Form';
+import VenoidForm from './venoid-form';
 
 export default {
   name: 'app',
