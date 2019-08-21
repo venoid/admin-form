@@ -1,3 +1,3 @@
-import VenoidForm from './'
+import VenoidForm from './Form'
 
 export default VenoidForm
