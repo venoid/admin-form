@@ -12,16 +12,13 @@
     "url": "git+ssh://git@bitbucket.org:venoid/admin-form.git"
   },
   "homepage": "https://bitbucket.org/venoid/admin-form#readme",
-
   "main": "dist/venoid-form.ssr.js",
   "module": "dist/venoid-form.esm.js",
   "unpkg": "dist/venoid-form.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
-
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
@@ -31,7 +28,6 @@
     "lint": "vue-cli-service lint",
     "push-npm": "bash ./publish.bash"
   },
-
   "dependencies": {
     "@mdi/font": "^4.0.96",
     "buefy": "^0.8.2",
@@ -40,19 +36,19 @@
     "sass-loader": "^7.1.0",
     "vue": "^2.6.10"
   },
-
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "cross-env": "^5.2.0",
     "minimist": "^1.2.0",
     "rollup": "^1.12.1",
     "rollup-plugin-buble": "^0.19.6",
     "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-vue": "^5.0.0",
