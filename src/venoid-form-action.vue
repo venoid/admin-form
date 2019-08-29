@@ -33,7 +33,7 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
+<style scoped>
 .FormAction {
   margin-right: 0.25rem;
 }

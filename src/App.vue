@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Venoid-admin form</h1>
-    <a href="https://bitbucket.org/venoid/admin-form#readme">
+    <a href="https://github.com/venoid/admin-form.git#readme">
       <b-icon icon="link" />
       DOCS
     </a>
@@ -96,7 +96,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 #app {
   display: flex;
   flex-direction: column;
