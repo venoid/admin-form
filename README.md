@@ -7,12 +7,12 @@ Form component for your administration provides you good options how to build yo
 ## Props
 | Props         | Type    | Default   |                                      |
 |---------------|---------|-----------|--------------------------------------|
-| actions       | Array   | []        | Array of objects with options. Represent buttons in the bottom of the form.    |
-| fields        | Object  | {}        | Keys of this object correspond to properties of your data model.               |
+| actions       | Array   | []        | Array of objects with [options](#action-options). Represent buttons in the bottom of the form.    |
+| fields        | Object  | {}        | Keys of this object correspond to properties of your data model. [Options here](#field-options)              |
 | isLoading     | Boolean | false     | Shows loading animation on the form.                                           |
 | model         | Object  | {}        | Your data model.                                                               |
 
-#### actions options
+#### action options
 ```
 {
   label: 'Say hello' // String,
@@ -21,7 +21,7 @@ Form component for your administration provides you good options how to build yo
 }
 ```
 
-#### fields options
+#### field options
 ```
 {
   icon: 'pencil', // String - name of material design icon
