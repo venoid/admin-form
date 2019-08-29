@@ -5,7 +5,7 @@
 
 Form component for your administration provides you good options how to build your form.
 
-![screenshot-example](https://camo.githubusercontent.com/c9c6ddeddf13420c7ff0eaec98ebb9e1b5a748e8/68747470733a2f2f6269746275636b65742e6f72672f76656e6f69642f61646d696e2d666f726d2f7261772f346166633464616332643239326232383165636261303534643166643932336338613737353439342f696d616765732f6578616d706c652d61646d696e2d666f726d2e706e67)
+![screenshot-example](https://raw.githubusercontent.com/venoid/admin-form/master/images/example-admin-form.png)
 
 ## Props
 | Props         | Type    | Default   |                                      |
