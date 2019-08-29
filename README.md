@@ -1,6 +1,7 @@
 # Venoid Admin Form Component
 
-![npm](https://img.shields.io/npm/v/@venoid/admin-form?color=green)
+[![npm](https://img.shields.io/npm/v/@venoid/admin-form?color=green)](https://www.npmjs.com/package/@venoid/admin-form)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@venoid/admin-form)
 
 Form component for your administration provides you good options how to build your form.
 
