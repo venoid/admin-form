@@ -9,9 +9,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:venoid/admin-form.git"
+    "url": "git@github.com:venoid/admin-form.git"
   },
-  "homepage": "https://bitbucket.org/venoid/admin-form#readme",
+  "homepage": "https://github.com/venoid/admin-form.git#readme",
   "main": "dist/venoid-form.ssr.js",
   "module": "dist/venoid-form.esm.js",
   "unpkg": "dist/venoid-form.min.js",
